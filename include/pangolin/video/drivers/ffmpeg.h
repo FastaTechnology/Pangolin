@@ -50,6 +50,9 @@ extern "C"
 #  define AVPixelFormat PixelFormat
 #endif
 
+#define AV_CODEC_FLAG_GLOBAL_HEADER (1 << 22)
+#define CODEC_FLAG_GLOBAL_HEADER AV_CODEC_FLAG_GLOBAL_HEADER
+#define AVFMT_RAWPICTURE 0x0020
 namespace pangolin
 {
 
